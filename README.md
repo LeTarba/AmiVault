@@ -84,6 +84,8 @@ Depuis la racine du dépôt :
 dotnet build .\Acr122NfcReader\Acr122NfcReader.csproj -c Debug
 ```
 
+L'exécutable généré s'appelle `AmiVault.exe`.
+
 Ou via le script batch :
 
 ```bat
@@ -104,6 +106,12 @@ Publication framework-dependent classique :
 publier_release_acr122_reader.bat
 ```
 
+Sortie attendue :
+
+```text
+dist\AmiVault-Release
+```
+
 ## Publication standalone
 
 Pour générer une version Windows `x64` autonome qui n'a pas besoin d'une installation .NET sur la machine cible :
@@ -116,6 +124,12 @@ Sortie attendue :
 
 ```text
 dist\AmiVault-win-x64-selfcontained
+```
+
+Binaire standalone attendu :
+
+```text
+dist\AmiVault-win-x64-selfcontained\AmiVault.exe
 ```
 
 ## Clés amiibo
@@ -139,4 +153,3 @@ Ne publie jamais ces fichiers sur GitHub.
 ## API externe
 
 - Documentation amiibo API : [https://amiiboapi.org/docs/](https://amiiboapi.org/docs/)
-

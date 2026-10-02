@@ -4,7 +4,7 @@ setlocal
 set "SCRIPT_DIR=%~dp0"
 set "PROJECT_DIR=%SCRIPT_DIR%Acr122NfcReader"
 set "PROJECT_FILE=%PROJECT_DIR%\Acr122NfcReader.csproj"
-set "OUTPUT_EXE=%PROJECT_DIR%\bin\Debug\net8.0-windows\Acr122NfcReader.exe"
+set "OUTPUT_EXE=%PROJECT_DIR%\bin\Debug\net8.0-windows\AmiVault.exe"
 
 where dotnet >nul 2>&1
 if errorlevel 1 (

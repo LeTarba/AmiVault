@@ -4,7 +4,7 @@ setlocal
 set "SCRIPT_DIR=%~dp0"
 set "PROJECT_DIR=%SCRIPT_DIR%Acr122NfcReader"
 set "PROJECT_FILE=%PROJECT_DIR%\Acr122NfcReader.csproj"
-set "PUBLISH_DIR=%SCRIPT_DIR%dist\Acr122NfcReader-Release"
+set "PUBLISH_DIR=%SCRIPT_DIR%dist\AmiVault-Release"
 
 where dotnet >nul 2>&1
 if errorlevel 1 (
@@ -42,8 +42,8 @@ echo Publication terminee :
 echo %PUBLISH_DIR%
 echo.
 echo Lancement de l'application publiee...
-if exist "%PUBLISH_DIR%\Acr122NfcReader.exe" (
-    start "" "%PUBLISH_DIR%\Acr122NfcReader.exe"
+if exist "%PUBLISH_DIR%\AmiVault.exe" (
+    start "" "%PUBLISH_DIR%\AmiVault.exe"
 ) else (
     echo Executable introuvable dans le dossier publie.
     pause
