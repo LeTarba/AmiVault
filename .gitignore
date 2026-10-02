@@ -1,0 +1,34 @@
+# Build outputs
+bin/
+obj/
+dist/
+
+# User / IDE
+*.user
+*.suo
+*.cache
+*.pdb
+.vs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local application state
+app-state.json
+*.log
+
+# NFC dumps and generated files
+dump_*.bin
+dump_*.txt
+
+# Private amiibo material
+Amiibo Bin/
+!Essential Files/
+key_retail.bin
+unfixed-info.bin
+locked-secret.bin
+ally-all-in-839.bin
+
